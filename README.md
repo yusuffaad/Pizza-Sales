@@ -3,12 +3,20 @@
 ![](pizza_background.jpg)
 
 ## Table of Content
+- [Overview](#overview)
+- [Data Sources](#data-sources)
 - [Tools Used](#tools-used)
+- [Problem Statement](#pm)
+- [Data Analysis (SQL Queries](#sql)
+- [Data Visualisation Tableau](#viz)
+- [Findings](#findings)
 - [Recommendations](#recommendations)
 
+<a id="overview"></a>
 ## Overview
 This project analyses key indicators for pizza sales data to gain insight into the pizza business's performance.The dataset was used for in-depth exploratory analysis using MS SQL Server and data visualization in Tableau. The analysis aimed to understand pizza sales trends, customer preferences, and popular pizza categories.
 
+<a id="data-sources"></a>
 ## Data Sources
 The primary data source for this analysis is the [pizza_sales.csv](pizza_sales.csv) containing different information about the business in columns.
 
@@ -17,13 +25,15 @@ The primary data source for this analysis is the [pizza_sales.csv](pizza_sales.c
 - MS SQL Server: Import data, create database, write queries and create reports.
 - Tableau: Connect to MS SQL Server, data processing and data visualisation
 
-## Exploratory Data Analysis
+<a id="pm"></a>
+## Problem Statement
 EDA involved exploring the pizza sales data to answer the following key problem statements;
 1. What are the busiest days and hours for orders?
 2. Which pizza category generates the highest and least revenue?
 3. Which pizza category are the most and least sold?
 4. Which pizza category accounts for the largest share of sales and orders?
 
+<a id="sql"></a>
 ## Data Analysis (SQL Queries)
 ```sql
 --The sum of the total price of all pizza orders.
@@ -109,6 +119,7 @@ FROM pizza_sales
 GROUP BY pizza_name
 ORDER BY Total_Orders
 ```
+<a id="viz"></a>
 ## Data Visualisation Tableau
 
 |Home|Best and Worst Sellers|
@@ -116,6 +127,7 @@ ORDER BY Total_Orders
 |![](Home.png)|![](Best_worst_sellers.png)|
 
 The report can be accessed and interacted with [here](https://public.tableau.com/app/profile/faad.yusuf/viz/Pizza_16993999897930/BestWorstSellers?publish=yes)
+<a id="findings"></a>
 ## Findings
 - Peak order is mostly during lunchtime (12:00 PM - 1:00 PM) and in the evening (4:00 PM - 7:00 PM).
 - Order volume fluctuates throughout the year, with the highest peak typically occurring during the 48th week of the year (around December).
