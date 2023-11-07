@@ -1,6 +1,6 @@
 # Pizza-Sales-Analysis
 
-![](pizza.jpg)
+![](pizza_background.jpg)
 ## Overview
 This project analyses key indicators for pizza sales data to gain insight into the pizza business's performance.The dataset was used for in-depth exploratory analysis using MS SQL Server and data visualization in Tableau. The analysis aimed to understand pizza sales trends, customer preferences, and popular pizza categories.
 
