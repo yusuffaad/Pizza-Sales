@@ -110,7 +110,7 @@ ORDER BY Total_Orders
 |-------|-------|
 |![](Home.png)|![](Best_worst_sellers.png)|
 
-The report can be accessed and interacted with [here](Pizza.twb)
+The report can be accessed and interacted with [here]([Pizza.twb](https://public.tableau.com/app/profile/faad.yusuf/viz/Pizza_16993999897930/BestWorstSellers?publish=yes))
 ## Findings
 - Peak order is mostly during lunchtime (12:00 PM - 1:00 PM) and in the evening (4:00 PM - 7:00 PM).
 - Order volume fluctuates throughout the year, with the highest peak typically occurring during the 48th week of the year (around December).
