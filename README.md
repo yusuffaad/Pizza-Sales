@@ -104,6 +104,9 @@ GROUP BY pizza_name
 ORDER BY Total_Orders
 ```
 ## Data Visualisation Tableau
+
+|Page 1|Page 2|
+|![](Home.png)|![](Best_worst_sellers.png)|
  
 
 
