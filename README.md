@@ -1,6 +1,7 @@
 # Pizza-Sales-Analysis
 
 ![](pizza_background.jpg)
+
 ## Overview
 This project analyses key indicators for pizza sales data to gain insight into the pizza business's performance.The dataset was used for in-depth exploratory analysis using MS SQL Server and data visualization in Tableau. The analysis aimed to understand pizza sales trends, customer preferences, and popular pizza categories.
 
@@ -105,10 +106,32 @@ ORDER BY Total_Orders
 ```
 ## Data Visualisation Tableau
 
-|Page 1|Page 2|
+|Home|Best and Worst Sellers|
 |-------|-------|
 |![](Home.png)|![](Best_worst_sellers.png)|
- 
+
+The report can be accessed and interacted with [here](pizza)
+## Findings
+- Peak order is mostly during lunchtime (12:00 PM - 1:00 PM) and in the evening (4:00 PM - 7:00 PM).
+- Order volume fluctuates throughout the year, with the highest peak typically occurring during the 48th week of the year (around December).
+- The classic category accounts for the largest share of total sales, orders, and pizzas sold.
+- Large pizzas contribute significantly to overall sales revenue.
+- The Thai Chicken Pizza generates the highest revenue.
+- The Classic Deluxe Pizza is the best-selling pizza in terms of quantity sold.
+- The Classic Deluxe Pizza is also the most frequently ordered.
+- The Brie Carre Pizza generates the lowest revenue.
+- The Brie Carre Pizza is the least-selling pizza in terms of quantity sold.
+- The Brie Carre Pizza is also the least frequently ordered pizza.
+
+ ## Recommendations
+- Optimize staffing and resources during peak order times (lunchtime and evening) to ensure timely order preparation and delivery.
+- Offer targeted promotions and discounts during off-peak hours e.g. it could offer a discount on pizzas ordered between 2:00 PM and 4:00 PM, or offer a free appetizer to customers who order during the early evening. 
+- The Classic category pizzas account for the largest share of total sales, orders, and pizzas sold. The organization should focus its marketing efforts on promoting these pizzas, as they are the most popular with customers.
+- Since large pizzas contribute significantly to overall sales revenue, the organization could offer bundle deals that include large pizzas. For example, it could offer a bundle deal that includes a large pizza, two sides, and two drinks.
+- Investigate the reasons behind the poor performance of the Brie Carre Pizza as it generates the lowest revenue and is the least-selling pizza in terms of quantity sold and frequency ordered. It may be necessary to reevaluate the pizza's ingredients, pricing, or marketing.
+- Conducting customer surveys to gather feedback on the menu, pricing, and overall experience.
+- Continue to market the Classic Deluxe Pizza, as it is the best-selling pizza in terms of quantity sold and order frequency. The organisation can also consider creating bundle deals that include this pizza.
+- Leverage the popularity of the Thai Chicken Pizza by promoting it as a flagship product and potentially expanding the menu with similar options.
 
 
 
