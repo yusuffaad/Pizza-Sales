@@ -2,12 +2,17 @@
 
 ![](pizza_background.jpg)
 
+## Table of Content
+- [Tools Used](#tools-used)
+- [Recommendations](#recommendations)
+
 ## Overview
 This project analyses key indicators for pizza sales data to gain insight into the pizza business's performance.The dataset was used for in-depth exploratory analysis using MS SQL Server and data visualization in Tableau. The analysis aimed to understand pizza sales trends, customer preferences, and popular pizza categories.
 
 ## Data Sources
 The primary data source for this analysis is the [pizza_sales.csv](pizza_sales.csv) containing different information about the business in columns.
 
+<a id="tools-used"></a>
 ## Tools Used
 - MS SQL Server: Import data, create database, write queries and create reports.
 - Tableau: Connect to MS SQL Server, data processing and data visualisation
@@ -110,7 +115,7 @@ ORDER BY Total_Orders
 |-------|-------|
 |![](Home.png)|![](Best_worst_sellers.png)|
 
-The report can be accessed and interacted with [here]([Pizza.twb](https://public.tableau.com/app/profile/faad.yusuf/viz/Pizza_16993999897930/BestWorstSellers?publish=yes)
+The report can be accessed and interacted with [here](https://public.tableau.com/app/profile/faad.yusuf/viz/Pizza_16993999897930/BestWorstSellers?publish=yes)
 ## Findings
 - Peak order is mostly during lunchtime (12:00 PM - 1:00 PM) and in the evening (4:00 PM - 7:00 PM).
 - Order volume fluctuates throughout the year, with the highest peak typically occurring during the 48th week of the year (around December).
@@ -123,6 +128,7 @@ The report can be accessed and interacted with [here]([Pizza.twb](https://public
 - The Brie Carre Pizza is the least-selling pizza in terms of quantity sold.
 - The Brie Carre Pizza is also the least frequently ordered pizza.
 
+<a id="recommendations"></a>
  ## Recommendations
 - Optimize staffing and resources during peak order times (lunchtime and evening) to ensure timely order preparation and delivery.
 - Offer targeted promotions and discounts during off-peak hours e.g. it could offer a discount on pizzas ordered between 2:00 PM and 4:00 PM, or offer a free appetizer to customers who order during the early evening. 
