@@ -110,7 +110,7 @@ ORDER BY Total_Orders
 |![](Home.png)|![](Best_worst_sellers.png)|
  
 
-![](Best_worst_sellers.png)
+
 
 
 
