@@ -13,3 +13,5 @@ The dataset was used for in-depth exploratory analysis using MS SQL Server and d
 - MS SQL Server: Import data, create database, write queries and create reports.
 - Tableau: Connect to MS SQL Server, data processing and data visualisation
 
+## Exploratory Data Analysis
+
